@@ -16,7 +16,7 @@ function OnePlayer(): JSX.Element {
   const create = { input: "CREATE" };
   const play = { input: "LET'S PLAY" };
   const playerOne = {
-    name: "Jean-Neymar",
+    playerName: playerName,
     img: "/Bear.svg",
     color: "bg-indigo-500",
     score: 0,
