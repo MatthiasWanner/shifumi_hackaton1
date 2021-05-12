@@ -4,6 +4,10 @@ import MyInput from "../Components/MyInput";
 import NumberInput from "../Components/NumberInput";
 
 function Register(): JSX.Element {
+  const [playerNameInput, setPlayerNameInput] = useState("");
+  const handleChangeName = (value: string) => {
+    setPlayerNameInput(value);
+  };
   const create = { input: "CREATE" };
   const join = { input: "JOIN" };
   return (
